@@ -1,6 +1,11 @@
 import React from 'react';
-import AddContact from './phonebook/AddContact';
+import AddContactContainer from '../containers/AddContactContainer';
 
 export default function App() {
-  return <AddContact />;
+  return (
+    <> 
+    <h1>PHONEBOOK</h1>
+      <AddContactContainer />
+    </>
+  );
 }
